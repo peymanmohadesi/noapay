@@ -1,0 +1,36 @@
+.container {
+position: fixed;
+z-index: 9000;
+top: 1rem;
+left: 1rem;
+}
+
+.err {
+    width: 250px;
+    padding: 10px 5px;
+    color: #ffffff;
+    background-color: #e74c3c;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.war {
+    width: 250px;
+    padding: 10px 5px;
+    color: #ffffff;
+    background-color: #f1c40f;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.suc {
+    width: 250px;
+    padding: 10px 5px;
+    color: #ffffff;
+    background-color: #2ecc71;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}

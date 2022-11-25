@@ -1,0 +1,149 @@
+.left_side {
+    position: absolute;
+    width: calc(100% - 250px);
+    left: 0;
+    top: 100px;
+}
+
+.customer_list {
+    box-shadow: -8px 6px 7px 0px #ccc;
+    width: 84%;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+}
+
+.list_header {
+    text-align: center;
+    height: 54px;
+    padding: 13px 0;
+    background-color: #01233fa1;
+    color: #ffffff;
+    border-radius: 5px 5px 0 0;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+thead {
+    background-color: #001c40;
+    color: #ffffff;
+}
+
+th {
+    padding: 10px 0;
+}
+
+td {
+    padding: 10px 0;
+    background-color: #dfdfdf;
+}
+
+.search_add {
+    padding:20px;
+}
+
+.add_btn {
+    box-shadow: #999999 0px 3px 8px;
+    border-radius: 13px;
+    padding: 14px 29px;
+    width: 185px;
+    cursor: pointer;
+    color: #001c40;
+}
+
+span {
+    color: rgb(233, 12, 12);
+}
+
+button {
+    margin: 10px 5% !important;
+}
+
+.pagination {
+    left: 234px;
+    position: absolute;
+    margin-top: 35px;
+    background-color: #dfdfdf;
+    border-radius: 5px;
+    padding: 5px 0;
+}
+
+.next {
+    display: inline;
+    background-color: #01233f;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+}
+
+.cur_page {
+    display: inline;
+    padding: 15px;
+    color: #01233f;
+}
+
+.prev {
+    display: inline;
+    background-color: #01233f;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 0 5px 5px 0px;
+    cursor: pointer;
+}
+
+.hide {
+    display: none !important;
+}
+
+.show {
+    display: inline;
+}
+
+.search_container {
+    width: 80%;
+    padding: 30px 30px 10px 30px;
+    box-shadow: 0 0 10px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.search_container div{
+    display: inline-block;
+    width: 50%;
+    margin-right: 20px;
+}
+
+.search_container button{
+    display: inline-block;
+    width: 20%;
+}
+
+.searchType {
+    display: inline-block;
+    width: 10%;
+    text-align: right;
+    font-family: vazir;
+}
+
+.page_size {
+    float: left;
+    margin-left: 10px;
+    width: 100px;
+    text-align: right;
+    font-family: 'vazir';
+    border-radius: 4px;
+    margin-top: -5px;
+}
+
+.loading_gif {
+    width: 150px;
+    margin-right: 40%;
+}
+
+.empty_alert {
+    text-align: center;
+    width: 80%;
+}

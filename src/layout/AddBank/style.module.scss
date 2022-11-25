@@ -1,0 +1,33 @@
+.left_side {
+    position: absolute;
+    width: calc(100% - 250px);
+    left: 0;
+    top: 100px;
+}
+
+.Profile_form {
+    box-shadow: -8px 6px 7px 0px #ccc;
+    width: 84%;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.form_header {
+    text-align: center;
+    height: 54px;
+    padding: 13px 0;
+    background-color: #01233fa1;
+    color: #ffffff;
+    border-radius: 5px 5px 0 0;
+}
+
+.form_items div {
+    width: 40%;
+    float: right;
+    margin: 25px 40px;
+}
+
+.ir_div {
+    
+}

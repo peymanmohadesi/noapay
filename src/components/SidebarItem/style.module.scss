@@ -1,0 +1,22 @@
+.sidebar_item {
+    width: 103%;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #01233f;
+    margin: 5px 0;
+    margin-right: -3px;
+    cursor: pointer;
+    -moz-box-shadow: 3px 0px 18px 0px #cccccc70;
+    -webkit-box-shadow: 3px 0px 18px 0px #cccccc70;
+    box-shadow: 3px 0px 18px 0px #cccccc70;
+    transition: 0.3s;
+}
+
+.sidebar_item:hover {
+    background-color: #01233fa1;
+    color: #ffffff;
+}
+
+svg {
+    margin-left: 10px;
+}

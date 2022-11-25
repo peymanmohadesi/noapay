@@ -1,0 +1,19 @@
+@font-face {
+    font-family: vazir;
+    src: url(../assets/font/Vazir-Regular.woff);
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: vazir;
+}
+
+button, input {
+    font-family: vazir;
+}
+
+* {
+box-sizing: border-box;
+}

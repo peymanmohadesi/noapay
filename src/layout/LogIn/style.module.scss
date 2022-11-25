@@ -1,0 +1,49 @@
+.container {
+    width: 400px;
+    height: 89.7vh;
+    padding: 1rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: #ebebeb7a 0px 3px 8px;
+    border-radius: 5px;
+    min-height: 365px;
+    background-color: #ffffffa6;
+}
+
+h1 {
+    text-align: center;
+}
+
+.captcha_div {
+    margin-top: 14px;
+    background-color: #457296;
+    padding: 22px 5px;
+    border-radius: 5px;
+}
+
+.captcha_container {
+    width: 40%;
+    margin-right: 196px;
+    margin-top: -62px;
+}
+
+.captcha_input_container label {
+    color: #ffffff !important;
+}
+
+.captcha_input_container input {
+    background-color: #ffffff;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.captcha_input_container {
+    width: 50%;
+}
+
+.forget_pass_a {
+    color: #01233f;
+    text-decoration: none;
+    margin-right: 24px;
+}

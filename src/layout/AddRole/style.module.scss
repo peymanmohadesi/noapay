@@ -1,0 +1,111 @@
+.left_side {
+    position: absolute;
+    width: calc(100% - 250px);
+    left: 0;
+    top: 100px;
+}
+
+.Profile_form {
+    box-shadow: -8px 6px 7px 0px #ccc;
+    width: 84%;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.form_header {
+    text-align: center;
+    height: 54px;
+    padding: 13px 0;
+    background-color: #01233fa1;
+    color: #ffffff;
+    border-radius: 5px 5px 0 0;
+}
+
+.form_items div {
+    width: 40%;
+    float: right;
+    margin: 25px 40px;
+}
+
+.ir_div {
+    
+}
+
+.permissions {
+    width: 90% !important;
+    border: 1px solid #7e7e7e;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.all_permissions_list_back {
+    height: 100% !important;
+    width: 100% !important;
+    position: fixed;
+    z-index: 10;
+    background-color: #0000009e;
+    left: -40px;
+    top: -22px;
+    display: none;
+}
+
+.all_permissions_list {
+    width: 60% !important;
+    background-color: #ffffff;
+    padding: 40px;
+    right: 278px !important;
+    position: absolute;
+    border: 2px solid #7e7e7e;
+    border-radius: 3px;
+}
+
+.all_permissions_list div {
+    background-color: #01233f;
+    width: 46%;
+    padding: 1px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 4px;
+    margin: 4px 14px;
+    cursor: pointer;
+}
+
+.this_permissions_list {
+    width: 90% !important;
+    border: 2px solid #7e7e7e;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+.this_permissions_list div {
+    background-color: #01233f;
+    width: 46%;
+    padding: 1px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 4px;
+    margin: 4px 14px;
+}
+
+.add_per_btn {
+    background-color: #ff4c4c !important;
+    width: 144px !important;
+    cursor: pointer;
+}
+
+.temp_area {
+    display: contents;
+}
+
+.exitBtn {
+    width: 100% !important;
+    text-align: right !important;
+    background-color: #ffffff !important;
+    color: #d60000 !important;
+    margin: -30px -30px 30px 0px !important;
+}
+
+.exitBtn svg {
+    transform: rotate(45deg);
+}

@@ -1,0 +1,30 @@
+.sidebar {
+    position: relative;
+    right: 0;
+    width: 200px;
+    background-color: #ffffff;
+    padding: 10px 3px;
+    height: 90vh;
+    -moz-box-shadow:    3px 8px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 8px 5px 6px #ccc;
+    box-shadow:         3px 8px 5px 6px #ccc;
+}
+
+.logout_btn {
+    width: 103%;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #d62626;
+    margin: 5px 0;
+    margin-right: -3px;
+    cursor: pointer;
+    -moz-box-shadow: 3px 0px 18px 0px #cccccc70;
+    -webkit-box-shadow: 3px 0px 18px 0px #cccccc70;
+    box-shadow: 3px 0px 18px 0px #cccccc70;
+    transition: 0.3s;
+}
+
+.logout_btn:hover {
+    background-color: #d62626;
+    color: #ffffff;
+}

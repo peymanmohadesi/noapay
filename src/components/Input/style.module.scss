@@ -1,0 +1,45 @@
+
+.input_container{
+	position:relative;
+	margin-bottom:25px;
+}
+.input_container label{
+	position:absolute;
+	top:0px;
+	right:0px;
+	font-size:16px;
+	color:rgb(39, 39, 39);	
+    pointer-event:none;
+	transition: all 0.5s ease-in-out;
+}
+.input_container input{ 
+  border:0;
+  border-bottom:1px solid #555;  
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:16px;
+  color:rgb(39, 39, 39);
+}
+.input_container input:focus{ 
+ border:none;	
+ outline:none;
+ border-bottom:1px solid #e74c3c;	
+}
+
+.input_container input:focus ~ label,
+.input_container input:valid ~ label{
+	top:-12px;
+	font-size:12px;
+	
+}
+
+label span {
+	color: red;
+}
+
+.inp {
+    width: 40%;
+    float: right;
+    margin: 25px 40px;
+}

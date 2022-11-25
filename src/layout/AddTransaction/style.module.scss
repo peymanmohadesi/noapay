@@ -1,0 +1,64 @@
+.left_side {
+    position: absolute;
+    width: calc(100% - 250px);
+    left: 0;
+    top: 100px;
+}
+
+.Profile_form {
+    box-shadow: -8px 6px 7px 0px #ccc;
+    width: 40%;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    position: absolute;
+    margin-right: 25%;
+}
+
+.form_header {
+    text-align: center;
+    height: 54px;
+    padding: 13px 0;
+    background-color: #01233fa1;
+    color: #ffffff;
+    border-radius: 5px 5px 0 0;
+}
+
+.form_items div {
+    width: 80%;
+    float: right;
+    margin: 25px 40px;
+}
+
+.file_input {
+    margin: 20px 28%;
+}
+
+.loading_gif {
+    width: 100px;
+    margin-right: 40%;
+}
+
+.trans_result_div {
+    display: none;
+    position: absolute;
+    width: 308px;
+    top: 256px;
+    right: 333px;
+    background-color: #01233fa1;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.transListBTN {
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #01233f;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+.unSavedSpan {
+    color: #ffffff;
+}
