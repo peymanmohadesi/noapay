@@ -17,7 +17,7 @@ import JCalendar from 'reactjs-persian-calendar'
 import slideImg1 from '../../assets/image/loading.gif';
 
 
-function CustomerList() {
+function BanksDailyReport() {
 
     const navigate = useNavigate();
     const dispatch = useDispatch();
@@ -195,4 +195,4 @@ function CustomerList() {
     );
 };
 
-export default CustomerList;
+export default BanksDailyReport;

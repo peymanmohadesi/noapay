@@ -12,7 +12,7 @@ import Navbar from '../Navbar';
 import { notification } from '../../state/action';
 
 
-function AddCustomer() {
+function AddUser() {
 
     const navigate = useNavigate();
     const dispatch = useDispatch();
@@ -151,4 +151,4 @@ function AddCustomer() {
     );
 };
 
-export default AddCustomer;
+export default AddUser;

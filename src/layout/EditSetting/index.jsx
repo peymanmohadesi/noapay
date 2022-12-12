@@ -12,7 +12,7 @@ import Navbar from '../Navbar';
 import { notification } from '../../state/action';
 
 
-function EditCustomer() {
+function EditSetting() {
 
     const navigate = useNavigate();
     const dispatch = useDispatch();
@@ -93,4 +93,4 @@ function EditCustomer() {
     );
 };
 
-export default EditCustomer;
+export default EditSetting;

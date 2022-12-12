@@ -15,7 +15,7 @@ import { faUserPlus } from '@fortawesome/fontawesome-free-solid'
 import slideImg1 from '../../assets/image/loading.gif';
 
 
-function RoleList() {
+function Settings() {
 
     const navigate = useNavigate();
     const dispatch = useDispatch();
@@ -167,4 +167,4 @@ function RoleList() {
     );
 };
 
-export default RoleList;
+export default Settings;

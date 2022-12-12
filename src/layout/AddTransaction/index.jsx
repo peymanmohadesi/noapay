@@ -16,7 +16,7 @@ import { faPlus } from '@fortawesome/fontawesome-free-solid'
 import slideImg1 from '../../assets/image/loading.gif';
 
 
-function AddRole() {
+function AddTransaction() {
 
     const navigate = useNavigate();
     const dispatch = useDispatch();
@@ -134,4 +134,4 @@ function AddRole() {
     );
 };
 
-export default AddRole;
+export default AddTransaction;
